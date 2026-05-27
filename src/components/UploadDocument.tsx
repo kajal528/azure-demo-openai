@@ -32,7 +32,7 @@ const UploadDocument = ({
 
       const response =
         await api.post(
-          "/documents/upload",
+          "/api/documents/upload",
           formData
         );
 

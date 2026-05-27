@@ -27,7 +27,7 @@ function App() {
     try {
 
       const response =
-        await api.get("/documents");
+        await api.get("/api/documents");
 
       setDocs(response.data);
 
@@ -36,6 +36,7 @@ function App() {
       console.error(error);
     }
   };
+
 
   useEffect(() => {
     fetchDocuments();

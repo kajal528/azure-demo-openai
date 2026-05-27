@@ -41,7 +41,7 @@ const AskAI = ({
 
       const response =
         await api.post(
-          "/documents/ask",
+          "/api/documents/ask",
           formData
         );
 
